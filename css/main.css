@@ -1,0 +1,102 @@
+body{ 
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+
+}
+
+/*hero img content*/
+header{
+  background-color: grey;
+  background-image: url("https://picsum.photos/id/493/1500/700");
+  background-repeat: no-repeat;
+
+  max-width: 1500px;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+/*hero text*/
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  line-height:1.8em;
+
+  text-align: center;
+  padding: 3rem;
+  max-width:22ch;
+
+  margin-top: 3rem;
+  
+  color:#717989;
+}
+
+/* navigation bar */
+.navbar ul{
+  list-style: none;
+  background-color: #D4DDF4;
+
+  padding: 0;
+  margin: 0;
+
+  text-align: right;
+  height: 3rem;
+  padding-top: 1rem;
+}
+
+.navbar li{
+  display: inline-block;
+  
+}
+.navbar a{
+  text-decoration: none; 
+  color: #717989;
+  padding: 1rem;
+}
+
+.navbar a:hover{
+  color: mediumvioletred;
+}
+
+/*call to action*/
+article{
+margin: auto;
+}
+
+button{
+ color:#717989;
+ background-color: #D4DDF4;
+ 
+ border-radius: 1rem;
+
+ justify-content: center;
+}
+
+button:hover{
+  color: mediumvioletred;
+  box-shadow: 3px 3px mistyrose;
+
+}
+
+div{
+  text-align: center;
+}
+
+.card{
+margin-left: 2.5rem;
+margin-right: 2.5rem;
+margin-top: 3rem;
+margin-bottom: 2.5rem;
+padding: 1rem;
+
+max-width:40ch;
+border-radius: 1rem;
+
+background-color: hsl(220, 10%, 49%,0.8);
+color: #D4DDF4;
+
+align-items: center;
+align-content: center;
+}
